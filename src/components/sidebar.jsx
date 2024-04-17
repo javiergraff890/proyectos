@@ -33,7 +33,8 @@ export default function Sidebar({changeActual}) {
                     sidebarOpen ?
                         <div className="divListaLiks">
                             
-                                <img src="/src/assets/perfil.jpg" onClick={ () => changeActual(0)} />
+                                {/* <img src="/src/assets/perfil.jpg" onClick={ () => changeActual(0)} /> */}
+                                <img src="https://raw.githubusercontent.com/javiergraff890/proyectos/main/src/assets/perfil.jpg" onClick={ () => changeActual(0)} />
                                 <h1>JAVIER GRAFF</h1>
                                 <ul className="ul-links">
                                     <li onClick={ () => changeActual(0) }>Sobre mi</li>
@@ -63,7 +64,8 @@ export default function Sidebar({changeActual}) {
                                         c-2.541,0.604-7.269,1.729-8.453,6.147C0.075,31.638,0.233,31.911,0.5,31.983z"/>
                                 </g>
                         </svg> */}
-                        <img src="/src/assets/perfil.jpg"  onClick={ () => changeActual(0)}/>
+                        {/* <img src="/src/assets/perfil.jpg"  onClick={ () => changeActual(0)}/> */}
+                        <img src="https://raw.githubusercontent.com/javiergraff890/proyectos/main/src/assets/perfil.jpg"  onClick={ () => changeActual(0)}/>
                         
                         <ul className="ul-links-cerrado">
                             <li onClick={ () => changeActual(0) }>
