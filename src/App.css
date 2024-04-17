@@ -1,0 +1,30 @@
+#root {
+  
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.titulo-principal{
+  color: #ffffff;;
+  margin-bottom: 10px;
+}
+
+.continer-main{
+  width: 100%;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  background-color: #a3bed6;
+}
+
+main{
+  
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  margin-left: 80px;
+  
+}
+

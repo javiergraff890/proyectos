@@ -1,0 +1,112 @@
+
+.asidePresentacion{
+  border: 1px solid #DAE3E5;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #385E94;
+    padding-right: 20px;
+    padding-top: 20px;
+    transition: left 0.3s ease;
+    z-index: 2;
+}
+
+.svg-expandir-contraer{
+    width: 34px; 
+    height: 34px;
+}
+
+.boton-expandir-contraer{
+    width: 40px;
+}
+
+.sidebarClose{
+    left: -170px;
+}
+
+.sidebarOpen {
+    left: 0;
+  }
+
+.conteiner-button-contraer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+  .divListaLiks{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .divListaLiks img {
+    width: 120px;
+    border-radius: 30px;
+  }
+
+  .divListaLiks h1 {
+    color: #f1f2f5;
+  }
+  .divListaLiks-cerrado{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+  }
+
+  .divListaLiks-cerrado img {
+    width: 40px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+  }
+
+  .divListaLiks-cerrado h1{
+    width: 40px;
+    height: 40px;
+    color: #fdfdfd;
+
+  }
+
+  .ul-links{
+    list-style: none;
+  }
+
+  .ul-links li{
+    border: 1px solid #0c0c0c;
+    padding: 8px 40px;
+    border-radius: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    color:#f1f2f5
+  }
+
+  .ul-links-cerrado{
+    list-style: none;
+  }
+
+  .ul-links-cerrado li{
+    list-style: none;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+.ul-links-cerrado svg{
+  fill: rgb(229, 229, 229);
+  margin-bottom: 2px;
+}
+
+.ul-links-cerrado li div {
+  font-size: 7px;
+  color: white;
+  margin-bottom: 10px;
+}
+

@@ -1,0 +1,111 @@
+.custom-container {
+    margin-left: 80px;
+  }
+
+  .mi-barra-de-progreso-css{
+    /* Ajusta el ancho de la barra de progreso según sea necesario */
+    height: 10px !important;
+    background-color: #2D4B76;
+  }
+
+  .css-confirm{
+    width: 100px;
+  }
+
+.conteiner-form-mail{
+    border: 1px solid #DAE3E5;
+    width: 800px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.conteiner-form-mail form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+    margin-top: 5px;
+}
+
+.conteiner-form-mail form label{
+    font-size: 20px;
+    text-align: left;
+    padding: 0 100px;
+}
+
+.conteiner-form-mail form input,
+.conteiner-form-mail form textarea {
+    margin: 0px 100px;
+    padding: 8px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #DAE3E5;
+}
+
+.button-submit{
+    background-color: #A1C6EA !important;
+}
+
+.conteiner-form-mail form textarea {
+    height: 140px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+
+@media( max-width: 888px){
+
+    .conteiner-form-mail{
+        width: 600px;
+    }
+
+    .conteiner-form-mail form{
+    padding: 10px 30px;
+    }
+
+} 
+
+ @media( max-width: 688px){
+
+    .conteiner-form-mail{
+        width: 400px;
+    }
+
+    .conteiner-form-mail form{
+    padding: 10px 0px;
+    }
+
+    .conteiner-form-mail form label{
+        padding: 0 50px;
+    }
+
+    .conteiner-form-mail form input,
+    .conteiner-form-mail form textarea {
+        margin: 0px 50px;
+        padding: 8px 15px;
+        margin-bottom: 10px;
+    }
+
+} 
+
+ @media( max-width: 500px){
+
+    .conteiner-form-mail{
+        width: 300px;
+        height: 400px;
+    }
+
+    .conteiner-form-mail form label{
+        padding: 0 30px;
+    }
+
+    .conteiner-form-mail form input,
+    .conteiner-form-mail form textarea {
+        margin: 0px 30px;
+        padding: 8px 15px;
+        margin-bottom: 10px;
+    }
+
+
+
+}
